@@ -1,8 +1,8 @@
 :root {
-    --cor-background: #f5f5f5;
-    --cor-principal: #E31E25;
-    --cor-secundaria: #E1DA0E;
-    --cor-terciaria: #1E9AE2;
+    --cor-background: #CBC4FF;
+    --cor-principal: #1D00FF;
+    --cor-secundaria: #FFDC00;
+    --cor-terciaria: #1400B2;
     --cor-texto: #333;
     --cor-texto-claro: #ffffff;
     --cor-link-hover: #f1faee;
@@ -58,7 +58,7 @@ header.menu-toggle {
 }
 
 header.azul {
-    background-color: var(--cor-terciaria);
+    background: linear-gradient(to right, var(--cor-terciaria), var(--cor-principal));
 }
 
 
@@ -222,7 +222,7 @@ h3.projetosDisplay {
 }
 
 #inicio {
-    background: linear-gradient(to right, #007bff, #00c3ff);
+    background: linear-gradient(to right, var(--cor-terciaria), var(--cor-principal));
     color: white;
     text-align: center;
     padding: 50px 20px;
